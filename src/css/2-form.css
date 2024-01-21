@@ -1,0 +1,77 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  padding: 24px;
+  margin: 0 auto;
+}
+  
+.form-label {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  outline: transparent;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:hover {
+  border: 1px solid #000;
+}
+
+textarea {
+  width: 360px;
+  height: 80px;
+  outline: transparent;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  resize: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+textarea:hover {
+  border: 1px solid #000;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  max-width: 86px;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 16px;
+  font-weight: 500;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.btn:hover {
+  background-color: #6C8CFF;
+}
