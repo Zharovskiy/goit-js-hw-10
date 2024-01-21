@@ -1,18 +1,18 @@
 {
-  "name": "goit-js-hw-09",
+  "name": "goit-js-hw-10",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-09/",
+    "build": "vite build --base=/goit-js-hw-10/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "glob": "^8.1.0",
     "vite": "^4.0.5"
   },
-  "author": "Yurii Zharovskiy <jarovski08@gmail.com>",
+  "author": "Yura Zharovskiy <jarovski08@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "simplelightbox": "^2.14.2",
