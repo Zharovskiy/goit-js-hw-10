@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snackbar</title>
-    <link href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css" rel="stylesheet">
+
     
     
   <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-ec808ebb.js"></script>
-  <link rel="stylesheet" href="/goit-js-hw-10/assets/2-snackbar-af9cef6c.css">
-  <link rel="stylesheet" href="/goit-js-hw-10/assets/main-a581dcab.css">
+  <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-75c1f44c.js"></script>
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-80d0dc0f.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/2-snackbar-97eea8ee.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/main-58400013.css">
 </head>
 <body>
     <p><a href="./index.html">Go back</a></p>
 
-    
+    <form class="form">
+        <label class="label-input-time">
+          Delay (ms)
+          <input class="input-time" type="number" name="delay" required />
+        </label>
+      
+        <fieldset class="input-checkbox">
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+      
+        <button type="submit">Create notification</button>
+    </form>
 
     
 </body>
