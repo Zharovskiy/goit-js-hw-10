@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                    */import"./assets/vendor-75c1f44c.js";function n(o){const t=Math.floor(o/864e5),c=Math.floor(o%864e5/36e5),s=Math.floor(o%864e5%36e5/6e4),r=Math.floor(o%864e5%36e5%6e4/1e3);return{days:t,hours:c,minutes:s,seconds:r}}console.log(n(2e3));console.log(n(14e4));console.log(n(2414e4));
+import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                    */import{f as t}from"./assets/vendor-e6f7761b.js";document.querySelector("[data-start]");t("#datetime-picker",{enableTime:!0,time_24hr:!0,defaultDate:new Date,minuteIncrement:1,onClose(e){e[0]>new Date?e[0]:window.alert("Please choose a date in the future")}});
 //# sourceMappingURL=commonHelpers.js.map
