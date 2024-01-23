@@ -1,32 +1,50 @@
 .form {
-    margin-top: 20px;
-    margin-left: 15px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
-.label-input-time {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 24px;
+.label-input-snackbar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
 }
 
-.input-time {
-    width: 360px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    padding: 8px 16px;
+.input-snackbar {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-snackbar:hover {
+  border: 1px solid #2E2F42;
+}
+
+.input-snackbar:focus {
+  outline: none;
+  border: 1px solid #4E75FF;
 }
 
 .input-checkbox {
-    display: flex;
-    justify-content: center;
-    gap: 48px;
-    width: 360px;
-    height: 64px;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    margin-left: 0px;
-    margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  width: 360px;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-left: 0px;
+  margin-bottom: 24px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.input-checkbox:hover {
+  border: 1px solid #2E2F42;
+}
+
+button {
+  width: 360px;
 }
