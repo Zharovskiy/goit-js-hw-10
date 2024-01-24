@@ -4,6 +4,7 @@
 }
 
 .input-time {
+  font-family: Montserrat;
   width: 272px;
   height: 40px;
   border-radius: 4px;
@@ -19,6 +20,11 @@
 .input-time:focus {
   outline: none;
   border: 1px solid #4E75FF;
+}
+
+.input-time:disabled {
+  color: #808080;
+  border: 1px solid #808080;
 }
 
 .timer {

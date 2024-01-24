@@ -1,6 +1,6 @@
 .form {
-  margin-top: 20px;
-  margin-left: 15px;
+  width: 360px;
+  margin: 0 auto;
 }
 
 .label-input-snackbar {
