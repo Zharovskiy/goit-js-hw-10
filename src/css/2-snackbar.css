@@ -11,6 +11,13 @@
 }
 
 .input-snackbar {
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 360px;
   height: 40px;
   border-radius: 4px;

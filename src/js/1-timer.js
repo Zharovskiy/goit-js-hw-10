@@ -68,14 +68,13 @@ flatpickr("#datetime-picker", {
       btnStart.removeAttribute('disabled');
     } else {
       btnStart.setAttribute('disabled', true);
-      iziToast.error({
+      iziToast.show({
         title: 'Error',
         titleColor: '#FFFFFF',
         message: 'Please choose a date in the future',
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#EF4040',
-        iconColor: '#FFFFFF',
         position: 'topRight'
       });
     }
