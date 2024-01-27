@@ -1,5 +1,7 @@
-import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+import okIcon from '../img/ok.svg';
+import errorIcon from '../img/err.svg';
 
 const formSnackbar = document.querySelector('.form');
 formSnackbar.addEventListener('submit', createNotification);
@@ -27,20 +29,26 @@ const makePromise = ({delay, state}) => {
 
 function onFullFiled(delay) {
     iziToast.show({
-        message: `✅ Fulfilled promise in ${delay}ms`,
+        title: 'OK',
+        titleColor: '#FFFFFF',
+        message: `Fulfilled promise in ${delay}ms`,
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#59A10D',
+        iconUrl: '../img/ok.svg',
         position: 'topRight'
     });
 };
 
 function onRejected(delay) {
     iziToast.show({
-        message: `❌ Rejected promise in ${delay}ms`,
+        title: 'Error',
+        titleColor: '#FFFFFF',
+        message: `Rejected promise in ${delay}ms`,
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#EF4040',
+        iconUrl: '../img/err.svg',
         position: 'topRight'
     });
 };

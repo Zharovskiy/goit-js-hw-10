@@ -2,6 +2,7 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import errorIcon from '../img/err.svg';
 
 function convertMs(ms) {
   // Number of milliseconds per unit of time
@@ -75,6 +76,7 @@ flatpickr("#datetime-picker", {
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#EF4040',
+        iconUrl: '../img/err.svg',
         position: 'topRight'
       });
     }
