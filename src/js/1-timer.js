@@ -76,7 +76,7 @@ flatpickr("#datetime-picker", {
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#EF4040',
-        iconUrl: '../img/err.svg',
+        iconUrl: 'errorIcon',
         position: 'topRight'
       });
     }
