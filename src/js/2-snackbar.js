@@ -35,7 +35,7 @@ function onFullFiled(delay) {
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#59A10D',
-        iconUrl: 'okIcon',
+        iconUrl: okIcon,
         position: 'topRight'
     });
 };
@@ -48,7 +48,7 @@ function onRejected(delay) {
         messageColor: '#FFFFFF',
         messageSize: '16px',
         backgroundColor: '#EF4040',
-        iconUrl: 'errorIcon',
+        iconUrl: errorIcon,
         position: 'topRight'
     });
 };
